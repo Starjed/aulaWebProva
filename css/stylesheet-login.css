@@ -21,11 +21,12 @@ body{
     opacity: 80%;
     height: 120%;
     width: 100%;
-    position: initial;
+    position: sticky;
 }
 
 .col-9 {
-    width: 100%;
+    justify-content: end;
+    margin-right: 0%;
 }
 
 .card {
@@ -38,6 +39,8 @@ body{
 
 .card-body {
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 
@@ -49,6 +52,22 @@ body{
     position: fixed;
     z-index: 12312321312321;
     top: 0px;
+    ;
   }
+
+  .row {
+    flex-wrap: nowrap;
+  }
+
+  .myName {
+    font-family: 'Signika', sans-serif;
+    width: 150%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 26px;
+}
 
 
