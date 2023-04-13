@@ -18,7 +18,7 @@ body {
 
 .background {
     background-color: black;
-    opacity: 80%;
+    opacity: 90%;
     height: 120%;
     width: 100%;
     position: static;
@@ -29,19 +29,6 @@ body {
     margin-right: 0%;
 }
 
-.card {
-    background-color: gray;
-    width: 45vh;
-    margin-left: 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
-.card-body {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-}
 
 
 .modal-backdrop {
@@ -71,6 +58,24 @@ body {
 
 .container-card {
     padding-top: 18vh;
-    margin: auto;
-    width: auto;
+    width: 100%;
+
+
+}
+
+
+
+.card {
+    background-color: gray;
+    width: 45vh;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.card-body {
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
