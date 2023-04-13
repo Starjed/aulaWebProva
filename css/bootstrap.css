@@ -550,6 +550,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: sticky;
 }
 
 @media (min-width: 576px) {
@@ -4421,6 +4422,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 
 .navbar-collapse {
@@ -6014,6 +6016,7 @@ a.close.disabled {
 .modal.show .modal-dialog {
   -webkit-transform: none;
   transform: none;
+  z-index: 213;
 }
 
 .modal.modal-static .modal-dialog {
