@@ -96,3 +96,14 @@ body {
 .navbar-icon {
     height: 70px;
 }
+
+.icon-linux {
+    display: flex;
+    justify-content: end;
+    margin-left: 40vh;
+    height: 40vh;
+}
+
+.icon-angular {
+    height: 10vh;
+}
