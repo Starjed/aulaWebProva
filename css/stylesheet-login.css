@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
 body {
+    overflow-x: hidden;
     background-image: url(../imgs/space.jpg);
     background-size: cover;
     -webkit-animation: slidein 100s;
@@ -103,17 +104,19 @@ body {
 .container-card {
     padding-top: 18vh;
     width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-between;
+
 }
 
 
 .card {
     background-color: darkcyan;
-    width: 45vh;
+    width: 100vh;
     height: auto;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 8vh;
     border-radius: 20px;
 }
 
@@ -127,20 +130,20 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 .animated-gif {
-    margin-right: 20px;
+    margin-right: 5vh;
     margin-left: 20vh;
 }
 
-.icon {
-    align-content: center;
-    flex-direction: column;
-    display: flex;
+.icon-kotlin {
+    position: relative;
     height: 10vh;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
 }
 
 .navbar-icon {
@@ -148,14 +151,32 @@ body {
 }
 
 .icon-linux {
-    display: flex;
-    justify-content: end;
-    margin-left: 40vh;
     height: 40vh;
 }
 
 .icon-angular {
     height: 10vh;
+}
+
+.div-linux {
+    position: relative;
+    margin-right: auto;
+    margin-left: 0;
+    display: flex;
+    float: right; 
+}
+
+.icon {
+    display: flexbox;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.icon.icon-linux {
+    position: ;
+    float: right;
+    display: flex;
 }
 
 #cardAccord {
@@ -166,7 +187,7 @@ body {
     border-radius: 18px;
     align-content: center;
     padding: auto;
-
+    width: 100%;
 }
 
 
@@ -188,4 +209,9 @@ body {
     display: flex;
     align-items: center;
     font-size: 25px;
+}
+
+.icon-spring {
+    margin-top: 10px;
+    height: 10vh;
 }
