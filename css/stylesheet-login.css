@@ -104,11 +104,12 @@ body {
     padding-top: 18vh;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 
 .card {
-    background-color: gray;
+    background-color: darkcyan;
     width: 45vh;
     height: auto;
     margin-left: 30px;
@@ -124,7 +125,6 @@ body {
 
 .info {
     display: flex;
-
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 30px;
