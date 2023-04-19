@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
 body {
+    height: 100%;
     overflow-x: hidden;
     background-image: url(../imgs/space.jpg);
     background-size: cover;
@@ -128,6 +129,7 @@ body {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    margin: auto;
 }
 
 .info {
@@ -195,7 +197,7 @@ body {
 
 
 #card-accord-top {
-    width: 20%;
+    width: 50vh;
     height: 20%;
     margin-top: 0px;
     margin-bottom: 20%;
@@ -220,9 +222,9 @@ body {
 }
 
 #accordionExample {
-  
+    margin-top: 20px;
     align-content: flex-start;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
